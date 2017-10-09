@@ -1,0 +1,22 @@
+{
+  "name": "mazel-portfolio.5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anniemnz/portfolio-bootstrap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anniemnz/portfolio-bootstrap/issues"
+  },
+  "homepage": "https://github.com/anniemnz/portfolio-bootstrap#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
