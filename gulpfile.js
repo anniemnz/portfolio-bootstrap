@@ -5,13 +5,13 @@ let sass = require('gulp-sass');
 let sourcemaps = require('gulp-sourcemaps');
  
 gulp.task('sass', function () {
-  return gulp.src('./sass/styles.scss')
+  return gulp.src('./Mazel-html-template/01_mazel_multiprapose/scss/**/*.scss')
     .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
     .pipe(sourcemaps.write())
-    .pipe(gulp.dest('./css'));
+    .pipe(gulp.dest('./Mazel-html-template/01_mazel_multiprapose/css'));
 });
  
 gulp.task('sass:watch', function () {
-  gulp.watch('./sass/**/*.scss', ['sass']);
+  gulp.watch('./Mazel-html-template/01_mazel_multiprapose/scss/**/*.scss', ['sass']);
 });
