@@ -7,3 +7,12 @@ body{
 	width: auto;
 }
 
+.header.header-prepare .nav-menu ul.nav-menu-inner > li:hover > a,
+.header.header-prepare .nav-menu ul.nav-menu-inner > li > a:hover {
+    color: #bd7f8e;
+}
+
+.header .nav-menu ul.nav-menu-inner > li:hover > a,
+.header .nav-menu ul.nav-menu-inner > li > a:hover,{
+    color: #bd7f8e;
+}
