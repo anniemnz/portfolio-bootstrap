@@ -58,7 +58,7 @@
 }
 
 ::selection {
-    background-color: #e6ae49;
+    background-color: #d9646b;
     color: #FFF;
 }
 
@@ -106,7 +106,7 @@ a {
 }
 
     a:hover {
-        color: #e6ae49;
+        color: #d9646b;
         text-decoration: none;
         transition: all 0.25s ease 0s;
         -moz-transition: all 0.25s ease 0s;
@@ -217,7 +217,7 @@ p {
 }
 
 .dark-bg {
-    background: #323232;
+    background: #a0bac1;
     color: #fff;
 }
 
@@ -231,11 +231,11 @@ p {
 
 .gray-bg {
     background: #f7f7f7;
-    color: #323232;
+    color: #5d6d71;
 }
 
     .gray-bg h1, .gray-bg h2, .gray-bg h3, .gray-bg h4, .gray-bg h5, .gray-bg h6, .gray-bg .container-icon {
-        color: #323232;
+        color: #5d6d71;
     }
 
 
@@ -268,7 +268,7 @@ p {
     }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #323232;
+    color: #5d6d71;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
@@ -307,7 +307,7 @@ h3 {
 }
 
     h3:after {
-        color: #e6ae49;
+        color: #e1cac7;
         content: ".";
         font-size: 34px;
     }
@@ -413,14 +413,14 @@ button {
 
 .btn-black {
     color: #fff;
-    background: #323232;
+    background: #5d6d71;
     border: none;
 }
 
     .btn-black:hover {
         color: #fff;
-        /*background: #e6ae49;*/
-        background: rgba(50,50,50,0.85);
+        background: #a0bac1;
+        /*background: rgba(50,50,50,0.85);*/
     }
 
 .btn-color-a, .btn-color-b {
@@ -442,7 +442,7 @@ button {
     }
 
 .btn-white {
-    color: #323232;
+    color: #5d6d71;
     background: rgba(255,255,255,1);
     border: none;
 }
@@ -508,8 +508,8 @@ button {
 }
 
     .btn-link-a:hover {
-        color: #e6ae49;
-        border-bottom: 1px solid #e6ae49;
+        color: #d9646b;
+        border-bottom: 1px solid #d9646b;
     }
 
     .btn-link-b:hover {
@@ -1180,7 +1180,7 @@ form label.error {
 
     /*header nav style*/
     .header.header-prepare .nav-menu ul.nav-menu-inner > li > a {
-        color: #323232;
+        color: #5d6d71;
     }
 
         .header.header-prepare .nav-menu ul.nav-menu-inner > li:hover > a,
@@ -1873,7 +1873,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
     display: table;
     height: 100%;
     text-align: center;
-    width: 100%;
+/*    width: 100%;*/
 }
 
 .intro-content-inner {
@@ -2246,7 +2246,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
 
     .accordion-title.active {
         /*background: #fafafa;*/
-        color: #e6ae49;
+        color: #a0bac1;
     }
 
     .accordion-title:before {
