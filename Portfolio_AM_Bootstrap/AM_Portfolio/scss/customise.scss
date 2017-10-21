@@ -1,7 +1,3 @@
-body{
-	border:1px red solid;	
-}
-
 .logo a img {
 	max-width: 300px;
 	width: auto;
@@ -17,6 +13,16 @@ body{
     color: #bd7f8e;
 }
 
-// .bg-image{
-// 	background-color: rgba(0,0,0,0.);
-// }
+.client-logo{
+	height: 120px;
+}
+
+.dark-bg .link:hover, .link:hover {
+            color: #d9646b;
+        }
+
+
+.container-filter li a.active {
+                color: #d9646b;
+}
+
